@@ -5,8 +5,121 @@ body {
     background-color: #258fe6;
 }
 
+.html1 {
+   display: table; 
+   margin: auto;
+}
 .header {
     padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.display {
+    width: 100%; 
+    max-width: 1200px; 
+    display: table-cell; 
+    vertical-align: middle;
+}
+.black {
+    color: black
+}
+.white {
+    background-color: white;
+}
+.manimage {
+    height: 555px;
+    width: 450px;
+    object-fit: cover;
+}
+
+.landingpage {
+    color: white;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-top:30px;
+}
+
+.webinar {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+}
+
+.shadow {
+    box-shadow: 10px 8px 20px 0px black;
+}
+
+.icon {
+    width:150px;
+    height:75px;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.miniicon {
+    align-self:center;
+    justify-content: center;
+    width:20px; 
+    height: 17px;
+    margin-top:5px;
+}
+.search {
+    height: 20px;
+    width: 220px;
+    outline: none;
+    border: 0;
+}
+
+.fontunicode {
+    font-family: 'Lucida Sans Unicode';
+}
+
+.whitebutton {
+    background: white;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+}
+.h3font {
+    font-family: Courier New, Courier, monospace;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.h3style {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.topicons {
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.bottomicons {
+    margin-left: 130px;
+}
+
+.iconcenter {
+    align-self: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+
+.padding1 {
+    background-color: darkorange;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.20padding {
+    padding: 20px;
 }
 
 .top-text {
@@ -42,7 +155,7 @@ body {
 
 .main-nav {
     flex: 1;
-    
+    font-family:'Segoe UI';
     text-align: center;
 }
 
@@ -59,6 +172,9 @@ body {
     flex-direction: column;
     align-items: flex-end;
     gap: 5px;
+    border: 2px solid black;
+    margin-right: 30px;
+    width: 250px;
 }
 .top-bar {
     display: flex;
@@ -80,37 +196,6 @@ body {
     padding: 20px;
 }
 
-.sidebar {
-    border: 2px solid black;
-    width: 25%;
-}
-
-.sidebar-box {
-    background: #e0e0e0;
-    display: flex;
-
-    flex-direction: column;
-    height: 100%;
-    border: 1px solid black;
-}
-
-    .sidebar-box button {
-        padding: 8px;
-        border: none;
-        background: #d0d0d0;
-        cursor: pointer;
-        text-align: left;
-    }
-
-.hero-banner {
-    flex-grow: 1;
-    margin-left: 20px;
-    height: 300px;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .featured-wrapper {
     margin: 20px;
@@ -140,6 +225,15 @@ body {
 .product-card2 {
     border: 1px solid black;
     align-items: center;
+    object-fit: cover;
+}
+
+.h3padding {
+    padding: 20px;
+}
+
+.aqua {
+    background-color: aqua;
 }
 
 .product-card3 {
